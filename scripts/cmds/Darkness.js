@@ -1,7 +1,7 @@
 module.exports = {
   config: {
-    name: "miss",
-    aliases: ["miss"],
+    name: "Darkness",
+    aliases: ["Darkness"],
     version: "1.0",
     author: "Loid Butter | merdi madimba",
     countDown: 10,
@@ -9,7 +9,7 @@ module.exports = {
     shortDescription: "Play miss, the oldest gambling game",
     longDescription: "Play miss, the oldest gambling game, and earn money",
     category: "game",
-    guide: "{pn} <soy/luna> <amount of money>"
+    guide: "{pn} <soy/senkai> <amount of money>"
   },
 
   onStart: async function ({ args, message, usersData, event }) {
@@ -19,7 +19,7 @@ module.exports = {
     const userData = await usersData.get(event.senderID);
 
     if (!["soy", "luna"].includes(betType)) {
-      return message.reply("😴𝐕𝐞𝐢𝐥𝐥𝐞𝐳 𝐩𝐫𝐞́𝐜𝐢𝐬𝐞𝐫, 𝙡𝙪𝙣𝙖 | 𝙨𝙤𝙮'.");
+      return message.reply("𝐕𝐞𝐢𝐥𝐥𝐞𝐳 𝐩𝐫𝐞́𝐜𝐢𝐬𝐞𝐫, senkai | 𝙨𝙤𝙮'.");
     }
 
     if (!Number.isInteger(betAmount) || betAmount < 1000) {
@@ -27,7 +27,7 @@ module.exports = {
     }
 
     if (betAmount > userData.money) {
-      return message.reply("🤣𝐏𝐚𝐮𝐯𝐫𝐞 𝐪𝐮𝐞 𝐭𝐮 𝐞𝐬, 𝐭𝐮 𝐧'𝐚𝐬 𝐩𝐚𝐬 𝐜𝐞 𝐦𝐨𝐧𝐭𝐚𝐧𝐭 𝐩𝐨𝐮𝐫 𝐣𝐨𝐮𝐞𝐫");
+      return message.reply("𝐏𝐚𝐮𝐯𝐫𝐞 𝐪𝐮𝐞 𝐭𝐮 𝐞𝐬, 𝐭𝐮 𝐧'𝐚𝐬 𝐩𝐚𝐬 𝐜𝐞 𝐦𝐨𝐧𝐭𝐚𝐧𝐭 𝐩𝐨𝐮𝐫 𝐣𝐨𝐮𝐞𝐫");
     }
 
     const dice = [1, 2, 3, 4, 5, 6];
