@@ -70,7 +70,12 @@ module.exports = {
       msg += `𝗧𝘆𝗽𝗲 ${prefix} 𝗵𝗲𝗹𝗽 𝗰𝗺𝗱𝗡𝗮𝗺𝗲 𝘁𝗼 𝘃𝗶𝗲𝘄 𝘁𝗵𝗲 𝗱𝗲𝘁𝗮𝗶𝗹𝘀 𝗼𝗳 𝘁𝗵𝗮𝘁 𝗰𝗼𝗺𝗺𝗮𝗻𝗱\n`;
       msg += ` | KÏNG'𝙎 𝘽𝙊𝙏`; // its not decoy so change it if you want 
 
-      const helpListImages = [;
+      const helpListImages = [
+        "https://i.ibb.co/q9NHQH9/image.jpg", // add image link here
+        "https://i.ibb.co/q9NHQH9/image.jpg",
+        "https://i.ibb.co/mS73vLT/image.jpg",
+        "https://i.ibb.co/q9NHQH9/image.jpg",
+        "https://i.ibb.co/mS73vLT/image.jpg",
         // Add more image links as needed
       ];
 
@@ -110,7 +115,7 @@ module.exports = {
   ➡ ${usage}
   ➡ 𝙉𝙤𝙩𝙚𝙨
   ➡ 𝙏𝙝𝙚 𝙘𝙤𝙣𝙩𝙚𝙣𝙩 𝙞𝙣𝙨𝙞𝙙𝙚 <𝙓𝙓𝙓𝙓𝙓> 𝙘𝙖𝙣 𝙗𝙚 𝙘𝙝𝙖𝙣𝙜𝙚𝙙
-  ➡ 𝙏𝙝𝙚 𝙘𝙤𝙣𝙩𝙚𝙣𝙩 𝙞𝙣𝙨𝙞𝙙𝙚 [𝙖|𝙗|𝙘] 𝙞𝙨 𝙖 𝙤𝙧 𝙗 𝙤𝙧 𝙘 \n_____________________\n 🎯 𝙚𝙙𝙞𝙩𝙚 𝙗𝙮 : Kïng
+  ➡ 𝙏𝙝𝙚 𝙘𝙤𝙣𝙩𝙚𝙣𝙩 𝙞𝙣𝙨𝙞𝙙𝙚 [𝙖|𝙗|𝙘] 𝙞𝙨 𝙖 𝙤𝙧 𝙗 𝙤𝙧 𝙘 \n_____________________\n 𝙚𝙙𝙞𝙩𝙚 𝙗𝙮 : Kïng
   `;
 
         await message.reply(response);
