@@ -22,7 +22,7 @@ module.exports = {
  
  const topUsersList = topUsers.map((user, index) => `${index + 1}. ${user.name}: ${user.money}`);
  
- const messageText = `🔖𝙇𝙐𝙉𝘼 𝙏𝙊𝙋 𝙍𝙄𝘾𝙃𝙀𝙎𝙏 🔖 \n________________:\n${topUsersList.join('\n')}`;
+ const messageText = `💈 SËNKAÏ TOP RICHEST 💈 \n________________:\n${topUsersList.join('\n')}`;
  
  message.reply(messageText);
  }
