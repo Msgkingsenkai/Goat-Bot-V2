@@ -70,12 +70,7 @@ module.exports = {
       msg += `𝗧𝘆𝗽𝗲 ${prefix} 𝗵𝗲𝗹𝗽 𝗰𝗺𝗱𝗡𝗮𝗺𝗲 𝘁𝗼 𝘃𝗶𝗲𝘄 𝘁𝗵𝗲 𝗱𝗲𝘁𝗮𝗶𝗹𝘀 𝗼𝗳 𝘁𝗵𝗮𝘁 𝗰𝗼𝗺𝗺𝗮𝗻𝗱\n`;
       msg += ` | KÏNG'𝙎 𝘽𝙊𝙏`; // its not decoy so change it if you want 
 
-      const helpListImages = [
-        "https://i.ibb.co/q9NHQH9/image.jpg", // add image link here
-        "https://i.ibb.co/q9NHQH9/image.jpg",
-        "https://i.ibb.co/mS73vLT/image.jpg",
-        "https://i.ibb.co/q9NHQH9/image.jpg",
-        "https://i.ibb.co/mS73vLT/image.jpg",
+      const helpListImages = [;
         // Add more image links as needed
       ];
 
